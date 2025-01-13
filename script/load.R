@@ -1,0 +1,10 @@
+library("limma")
+library("minfi")
+library("RColorBrewer")
+library("missMethyl") # Can take a short time...
+library("minfiData")
+library("Gviz")
+library("DMRcate")
+library("DMRcatedata")
+library("stringr")
+library("mCSEA")
