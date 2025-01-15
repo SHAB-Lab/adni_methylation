@@ -17,7 +17,7 @@ list.files(data_dir, recursive = TRUE)
 # READ DATA
 targets <- read.metharray.sheet("data", pattern = "Sample_Sheet.csv")
 # READ ONLY SMALL SET
-tar_small <- targets[1:10,]
+tar_small <- targets[1:10, ]
 rg_set <- read.metharray.exp(targets = tar_small)
 
 # SUMMARIZE DATA
